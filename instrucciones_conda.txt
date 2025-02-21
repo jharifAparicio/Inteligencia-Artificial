@@ -1,0 +1,49 @@
+
+Instrucciones para usar Conda en Linux Mint
+
+1. Abrir una Terminal
+   - Abre una terminal en Linux Mint.
+
+2. Activar Conda
+   - Si no ves el "(base)" al inicio de tu línea de comando, actívalo manualmente con:  
+     source ~/.bashrc
+   - O simplemente:  
+     conda init bash
+   - Luego, cierra y abre la terminal nuevamente para que los cambios surtan efecto.
+
+3. Verificar que Conda esté activo
+   - Puedes verificar si Conda está funcionando correctamente con:  
+     conda --version
+
+4. Comandos básicos de Conda
+   - Actualizar Conda:
+     conda update conda
+
+   - Ver todas las versiones de Conda disponibles:
+     conda info
+
+   - Listar entornos disponibles:
+     conda env list
+
+   - Crear un nuevo entorno:
+     conda create --name nombre_entorno python=3.x
+     Ejemplo: conda create --name mi_entorno python=3.9
+
+   - Activar un entorno:
+     conda activate nombre_entorno
+     Ejemplo: conda activate mi_entorno
+
+   - Desactivar el entorno actual:
+     conda deactivate
+
+   - Eliminar un entorno:
+     conda remove --name nombre_entorno --all
+
+   - Instalar un paquete en un entorno activo:
+     conda install nombre_paquete
+     Ejemplo: conda install numpy
+
+5. Salir de Conda
+   - Si estás en un entorno específico, utiliza:  
+     conda deactivate
+     Esto te llevará de vuelta al entorno base o al shell normal de tu sistema.
