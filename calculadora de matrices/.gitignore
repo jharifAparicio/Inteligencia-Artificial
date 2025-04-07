@@ -335,17 +335,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-
-**/*.png
-**/*.jpg
-**/*.jpeg
-
-
-# dejar las imagenes imagen 1.jpg, imagen 2.jpg, imagen 3.jpg
-!**/imagen 1.jpg
-!**/imagen 2.jpg
-!**/imagen 3.jpg
-
-**/*/*.pth
-**/*/*.ipynb
