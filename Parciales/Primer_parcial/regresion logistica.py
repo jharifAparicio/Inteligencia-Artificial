@@ -1,6 +1,3 @@
-# %% [markdown]
-# # importacion de librerias nesesarias
-
 # %%
 # Calculo cientifico y vectorial para python
 import numpy as np
@@ -9,9 +6,6 @@ import numpy as np
 from matplotlib import pyplot
 
 import joblib
-
-# le dice a matplotlib que incruste gráficos en el cuaderno
-%matplotlib inline
 
 # %% [markdown]
 # # Cargamos los datos  en python
